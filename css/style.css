@@ -455,3 +455,124 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+/* Fibonacci Specific Styles */
+.fibonacci-serie {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+}
+
+.fibonacci-number {
+    background: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.fibonacci-number sub {
+    color: #ecf0f1;
+}
+
+.fibonacci-separator {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.enesimo {
+    background: #e8f4fd;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.fibonacci-properties {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #cbd5e0;
+}
+
+.fibonacci-properties h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.fibonacci-properties ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.fibonacci-properties li {
+    padding: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.fibonacci-properties li:before {
+    content: "📊";
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.form-hint {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+}
+
+.info-box h4 {
+    color: #2c3e50;
+    margin: 15px 0 10px 0;
+}
+
+.info-box h4:first-of-type {
+    margin-top: 0;
+}
+
+/* Animación para números de Fibonacci */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fibonacci-number {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Responsive para Fibonacci */
+@media (max-width: 768px) {
+    .fibonacci-serie {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    
+    .fibonacci-separator {
+        display: none;
+    }
+    
+    .fibonacci-number {
+        margin: 5px 0;
+    }
+}

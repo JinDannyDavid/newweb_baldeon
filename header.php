@@ -19,6 +19,7 @@
                 <li><a href="contact.php">Contacto</a></li>
                 <li><a href="suma.php">Suma</a></li>
                 <li><a href="factorial.php">Factorial</a></li>
+                <li><a href="fibonacci.php">Fibonacci</a></li>
             </ul>
         </nav>
     </header>
