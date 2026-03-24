@@ -13,10 +13,12 @@
                 <h1>Baldeon David</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="about.php">Sobre Mí</a></li>
+                <li><a href="index.php">Pagina principal</a></li>
+                <li><a href="about.php">Sobre quien?</a></li>
                 <li><a href="services.php">Servicios</a></li>
                 <li><a href="contact.php">Contacto</a></li>
+                <li><a href="suma.php">Suma</a></li>
+                <li><a href="factorial.php">Factorial</a></li>
             </ul>
         </nav>
     </header>
