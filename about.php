@@ -5,7 +5,7 @@
     <div class="about-content">
         <div class="about-text">
             <h3>¡Hola! Soy Baldeon David</h3>
-            <p>Desarrollador web con experiencia en creación de aplicaciones web dinámicas y responsivas. Me especializo en PHP, MySQL, HTML5, CSS3 y JavaScript.</p>
+            <p>Desarrollador web en aprendizaje. Me especializo en PHP, MySQL, HTML5, CSS3 y JavaScript.</p>
             <p>Mi pasión es convertir ideas en realidad digital, creando experiencias de usuario excepcionales y código limpio y eficiente.</p>
             <h4>Habilidades:</h4>
             <ul>
